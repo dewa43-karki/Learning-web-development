@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.border{
+    border: 12px solid transparent;
+    border-radius: 9px;
+}
+.border:hover{
+    border-color: whitesmoke;
+}
+.border2{
+    border: 5px solid transparent;
+    border-radius: 3px;
+}
+.border2:hover{
+    border-color: rgb(136, 194, 236);
+}
+
+
+/* vertical navbar */
+.navbar {
+    width: 72.600px;
+    height: 100vh;     
+    position: fixed;
+    top: 0;           
+    left: 0;
+    z-index: 200;    
+    border-right: 1px solid gainsboro;
+}
+.vertical-nav{
+    display: Flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 24px;
+}
+
+.fa-pinterest{
+    margin-top: 27px;
+    margin-bottom: 5px;
+}
+
+.nav-icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 450px;
+}
+
+.fa-gear{
+    margin-top: 80px;
+    margin-bottom:10px;
+}
+
+
+/* header*/ 
+.search {
+    height: 80px;
+    width: 100%; 
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-left: 73px;
+    position: fixed;
+    top: 0;         
+    left: 0;
+    z-index: 100;
+    background-color: white;
+}
+.search1{
+    width: 1350px;
+    font-size: 26px;
+    height: 48px;
+    background-color: rgb(238, 238, 238);
+    padding-left: 16px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+input{
+    width: 1204px;
+    background-color: rgb(238, 238, 238);;
+    font-size: 26px;
+    border: none;
+    outline: none;
+}
+
+.media{
+    width: 100px;
+    font-size: 24px;
+    background-color: rgb(238, 238, 238);
+    border: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.image{
+    height: 38px;
+    width: 38px;
+    position: absolute;
+    right: 100px;
+    top: 25px;
+    border-radius: 50%;
+}
+
+.image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+/* main content */
+main {
+    margin-top: 82px;  
+    margin-left: 75px; 
+    padding: 16px;
+}
+
+.sub-head{
+    height: 64px;
+    font-size: 18px;
+    color: black;
+    text-underline-offset: 6px;    
+    text-decoration-thickness: 2px; 
+    text-decoration-color: black;
+}
+
+.grid{
+    columns: 6;
+    gap: 16px;
+    padding: 16px;
+}
+
+.pin{
+    margin-bottom: 16px;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 16px;
+    break-inside: avoid;
+}
+
+.pin img,
+.pin video{
+    border-radius: 16px;
+    width: 100%;
+    display: block;
+}
+
+.pin:hover{
+    opacity: 0.9;
+}
+
+.pin-options{
+    display: flex;
+    justify-content: right;
+}
