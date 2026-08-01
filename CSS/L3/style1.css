@@ -1,0 +1,12 @@
+div {
+    height: 700px;
+    width: 1500px;
+    background-image: url("mountain.jpg");
+    background-size:cover;
+    position: relative;
+    left: 1000px;
+
+}
+h1{
+    text-align: center;
+}
