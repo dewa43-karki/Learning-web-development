@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lodder{
+    height: 300px;
+    width: 300px;
+    background-color: whitesmoke;
+    border-radius: 50%;
+    border: 10px solid rgb(189, 238, 255);
+    border-top: 20px solid rgb(174, 170, 170);
+    animation: lodder 700ms linear 0s infinite normal;
+}
+@keyframes lodder{
+        0%{
+            transform: rotate(0deg);
+            
+        }
+        100%{
+            transform: rotate(360deg);
+        }
+    }
