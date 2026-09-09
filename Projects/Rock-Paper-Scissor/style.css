@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #C3E1FC;
+    min-height: 100vh;
+    text-align: center;
+    position: relative;
+    font-size: 17px;
+    margin-top: 18px;
+}
+
+.reset button{
+    position: absolute;
+    top: 5px;
+    right: 30px;
+    font-size: 40px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.content-1,
+.content-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 300px;
+}
+
+.bot-side,
+.player-side{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.choice{ 
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon{
+    font-size: 60px;
+    text-align: center;
+    color: #2A2A2A;
+}
+
+.rock{
+    background-color: #CCC2E2;
+}
+
+.paper{
+    background-color: #DD83AD;
+}
+
+.scissors{
+    background-color: #D4A2C7;
+    transform: rotate X(90deg);
+}
+
+footer{
+    font-size: 15px;
+}
+
+/*for tablets*/
+@media (max-width: 768px) {
+    .icon{
+        font-size: 45px;
+    }
+    .choice {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+/*for mobile phones*/
+@media (max-width: 480px) {
+    .icon{
+        font-size: 36px;
+    }
+    .choice {
+        width: 120px;
+        height: 120px;
+    }
+}

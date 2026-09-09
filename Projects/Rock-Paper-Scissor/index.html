@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock-Paper-Scissors</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <h1>Rock-Paper-Scissors Game</h1>
+    <div class="reset" aria-label="Reset game">
+       <button><i class="fa-solid fa-arrow-rotate-left"></i></button>
+    </div>
+    <main>
+        <div class="content-1">
+            <div class="bot-side">
+              <button class="rock choice"><i class="fa-regular fa-hand-back-fist icon"></i></button>
+              <button class="paper choice"><i class="fa-regular fa-hand icon"></i></button>
+              <button class="scissors choice"><i class="fa-regular fa-hand-scissors icon"></i></button>
+            </div>
+        </div>
+        <div class="score">
+          <span><strong>Bot:</strong> <span id="bot-score">0</span></span>
+          <span><strong>Player:</strong> <span id="player-score">0</span></span>
+        </div>
+        <div class="content-2">
+           <div class="player-side">
+              <button class="rock choice"><i class="fa-regular fa-hand-back-fist icon"></i></button>
+              <button class="paper choice"><i class="fa-regular fa-hand icon"></i></button>
+              <button class="scissors choice"><i class="fa-regular fa-hand-scissors icon"></i></button>
+           </div>
+        </div>
+    </main>   
+    <footer>
+        <p>&copy; 2025 Rock-Paper-Scissors Game. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
