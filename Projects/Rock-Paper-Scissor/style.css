@@ -38,6 +38,7 @@ body{
     justify-content: center;
     align-items: center;
     gap: 60px;
+    cursor: pointer;
 }
 
 .choice{ 
@@ -52,7 +53,7 @@ body{
 .icon{
     font-size: 60px;
     text-align: center;
-    color: #2A2A2A;
+    color: #434242;
 }
 
 .rock{
@@ -74,6 +75,9 @@ footer{
 
 /*for tablets*/
 @media (max-width: 768px) {
+    body{
+        font-size: 16px;
+    }
     .icon{
         font-size: 45px;
     }
@@ -81,15 +85,34 @@ footer{
         width: 150px;
         height: 150px;
     }
+    .bot-side,
+    .player-side{
+        gap: 15px;
+    }
+    .reset button{
+        font-size: 25px;
+        right: 10px;
+    }
 }
 
 /*for mobile phones*/
 @media (max-width: 480px) {
+    body{
+        font-size: 12px;
+    }
     .icon{
         font-size: 36px;
     }
     .choice {
         width: 120px;
         height: 120px;
+    }
+    .bot-side,
+    .player-side{
+        gap: 8px;
+    }
+    .reset button{
+        font-size: 16px;
+        right: 8px;
     }
 }
